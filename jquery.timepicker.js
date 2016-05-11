@@ -122,13 +122,13 @@
 			list.show();
 			var listOffset = {};
 
-			if (settings.orientation.match(/r/)) {
+			/*if (settings.orientation.match(/r/)) {
 				// right-align the dropdown
 				listOffset.left = self.offset().left + self.outerWidth() - list.outerWidth() + parseInt(list.css('marginLeft').replace('px', ''), 10);
 			} else {
 				// left-align the dropdown
 				listOffset.left = self.offset().left + parseInt(list.css('marginLeft').replace('px', ''), 10);
-			}
+			}*/
 
 			var verticalOrientation;
 			if (settings.orientation.match(/t/)) {
